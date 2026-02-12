@@ -1,0 +1,20 @@
+{
+    "Name": "Hallowed Armor of Fireward",
+    "Rarity": "Epic",
+    "PrefixModifiers": [
+        "+11% player movespeed",
+        "+13 armor"
+    ],
+    "SuffixModifiers": [
+        "+7% gold find",
+        "+8% fire resistance"
+    ],
+    "PrefixModifierRarities": [
+        "Epic",
+        "Rare"
+    ],
+    "SuffixModifierRarities": [
+        "Rare",
+        "Rare"
+    ]
+}

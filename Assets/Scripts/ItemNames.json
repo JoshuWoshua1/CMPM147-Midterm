@@ -1,0 +1,269 @@
+{
+  "baseNames": [
+    "Sword",
+    "Axe",
+    "Bow",
+    "Staff",
+    "Dagger",
+    "Hammer",
+    "Pickaxe",
+    "Shield",
+    "Amulet",
+    "Ring",
+    "Crown",
+    "Gauntlet",
+    "Boots",
+    "Helm",
+    "Armor",
+    "Blade",
+    "Orb",
+    "Wand",
+    "Spear",
+    "Mace",
+    "Cloak",
+    "Bracers"
+  ],
+  "categories": [
+    {
+      "name": "Weapons",
+      "baseNames": ["Sword", "Axe", "Bow", "Staff", "Dagger", "Hammer", "Blade", "Wand", "Spear", "Mace", "Orb"]
+    },
+    {
+      "name": "Armor",
+      "baseNames": ["Shield", "Crown", "Gauntlet", "Boots", "Helm", "Armor", "Cloak", "Bracers"]
+    },
+    {
+      "name": "Tools",
+      "baseNames": ["Pickaxe", "Axe", "Hammer"]
+    },
+    {
+      "name": "Accessories",
+      "baseNames": ["Amulet", "Ring"]
+    }
+  ],
+  "prefix": [
+    {
+      "template": "+{0}% player movespeed",
+      "namePrefix": "Swift",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Armor", "Accessories"]
+    },
+    {
+      "template": "+{0}% size",
+      "namePrefix": "Vigorous",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Weapons", "Tools"]
+    },
+    {
+      "template": "+{0}% player attack speed",
+      "namePrefix": "Hasty",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Weapons"]
+    },
+    {
+      "template": "+{0} damage",
+      "namePrefix": "Brutal",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Weapons"]
+    },
+    {
+      "template": "+{0}% critical hit chance",
+      "namePrefix": "Wicked",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Weapons", "Accessories"]
+    },
+    {
+      "template": "+{0} health",
+      "namePrefix": "Mighty",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Armor", "Accessories"]
+    },
+    {
+      "template": "+{0} armor",
+      "namePrefix": "Hallowed",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Armor", "Accessories"]
+    },
+    {
+      "template": "+{0}% lifesteal",
+      "namePrefix": "Cursed",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Weapons"]
+    },
+    {
+      "template": "+{0}% magic damage",
+      "namePrefix": "Arcane",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Weapons", "Accessories"]
+    },
+    {
+      "template": "+{0}% cooldown reduction",
+      "namePrefix": "Mystic",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Weapons", "Tools", "Accessories"]
+    },
+    {
+      "template": "+{0} strength",
+      "namePrefix": "Ancient",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 }
+    },
+    {
+      "template": "+{0} intelligence",
+      "namePrefix": "Knowing",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 }
+    },
+    {
+      "template": "+{0}% mining speed",
+      "namePrefix": "Excavating",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 40 },
+      "allowedBaseNames": ["Tools"]
+    }
+  ],
+  "suffix": [
+    {
+      "template": "+{0}% chance to cause aoe explosions on hit",
+      "nameSuffix": "of Explosions",
+      "rare": { "min": 1, "max": 4 },
+      "epic": { "min": 5, "max": 9 },
+      "legendary": { "min": 10, "max": 15 },
+      "allowedBaseNames": ["Weapons"]
+    },
+    {
+      "template": "+{0}% dodge chance",
+      "nameSuffix": "of Evasion",
+      "rare": { "min": 3, "max": 9 },
+      "epic": { "min": 10, "max": 19 },
+      "legendary": { "min": 20, "max": 35 },
+      "allowedBaseNames": ["Armor", "Accessories"]
+    },
+    {
+      "template": "+{0} mana regeneration",
+      "nameSuffix": "of Wisdom",
+      "rare": { "min": 10, "max": 20 },
+      "epic": { "min": 21, "max": 39 },
+      "legendary": { "min": 40, "max": 60 },
+      "allowedBaseNames": ["Weapons", "Accessories", "Armor"]
+    },
+    {
+      "template": "+{0}% area of effect",
+      "nameSuffix": "of Storms",
+      "rare": { "min": 3, "max": 9 },
+      "epic": { "min": 10, "max": 19 },
+      "legendary": { "min": 20, "max": 30 },
+      "allowedBaseNames": ["Weapons"]
+    },
+    {
+      "template": "+{0}% projectile speed",
+      "nameSuffix": "of Swiftness",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Weapons"]
+    },
+    {
+      "template": "+{0} knockback",
+      "nameSuffix": "of Force",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Weapons"]
+    },
+    {
+      "template": "+{0}% elemental resistance",
+      "nameSuffix": "of Warding",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Armor", "Accessories"]
+    },
+    {
+      "template": "+{0}% bleeding damage over time",
+      "nameSuffix": "of Ruin",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Weapons"]
+    },
+    {
+      "template": "+{0}% chance to freeze",
+      "nameSuffix": "of Ice",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 },
+      "allowedBaseNames": ["Weapons"]
+    },
+    {
+      "template": "+{0}% gold find",
+      "nameSuffix": "of Fortune",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 50 }
+    },
+    {
+      "template": "+{0}% armor",
+      "nameSuffix": "of Fortitude",
+      "rare": { "min": 5, "max": 12 },
+      "epic": { "min": 10, "max": 20 },
+      "legendary": { "min": 18, "max": 35 },
+      "allowedBaseNames": ["Armor", "Accessories"]
+    },
+    {
+      "template": "+{0}% fire resistance",
+      "nameSuffix": "of Fireward",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 40 },
+      "allowedBaseNames": ["Armor", "Accessories"]
+    },
+    {
+      "template": "+{0}% magic resistance",
+      "nameSuffix": "of Spellward",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 40 },
+      "allowedBaseNames": ["Armor", "Accessories"]
+    },
+    {
+      "template": "+{0}% tool speed",
+      "nameSuffix": "of Haste",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 40 },
+      "allowedBaseNames": ["Tools"]
+    },
+    {
+      "template": "+{0}% resources gathered",
+      "nameSuffix": "of Bounty",
+      "rare": { "min": 5, "max": 15 },
+      "epic": { "min": 10, "max": 25 },
+      "legendary": { "min": 20, "max": 40 },
+      "allowedBaseNames": ["Tools"]
+    }
+  ]
+}
