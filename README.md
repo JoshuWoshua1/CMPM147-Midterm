@@ -13,6 +13,7 @@ A tool for generating randomized items with modifiable properties, rarity levels
 - [Loot Luck System](#loot-luck-system)
 - [API Reference](#api-reference)
 - [Examples](#examples)
+- [Known Limitations](#known-limitations)
 
 ## Quick Start
 
@@ -483,6 +484,24 @@ At runtime, you can do the same thing via the API using `ItemGenerationOptions` 
   - `baseNames` (not `itemNames`)
 
 ItemTool supports both old and new formats, but mixing them may cause issues.
+
+## Known Limitations
+
+- **No stat generation** - The tool generates modifier *descriptions* (like "+5 Damage") but doesn't calculate actual game stats. You'll need to parse these strings and apply them in your own code.
+
+- **Modifiers are text-based** - Modifiers are stored as strings. You'll need to extract numbers from them and apply to your game's stat system.
+
+- **Fixed modifier count per rarity** - Legendary items always get exactly 3 prefixes and 3 suffixes, Epic items always get exactly 2 of each, and Rares get 1 of each. You cannot customize this per individual item.
+
+- **Duplicate base names across categories** - If the same item name appears in multiple categories, the tool treats them identically.
+
+- **No in-game UI** - ItemTool only provides an editor interface. You'll need to build your own UI system to display generated items to players.
+
+- **Manual JSON creation** - There's no unique editor; you must manually modify or create the JSON file yourself.
+
+- **No animations or effects** - Item generation is instant; no visual feedback or sound effects are included.
+
+- **Only works in Unity** - This tool is made with Unity in mind, and does not support other engines.
 
 ---
 
